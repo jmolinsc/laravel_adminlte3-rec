@@ -43,7 +43,7 @@
 
 
                 <li class="nav-item">
-                    <a href="/modulo" wire:navigate class="nav-link">
+                    <a href="{{ route('modulo') }}" class="nav-link">
                         <i class="nav-icon far fa-calendar-alt"></i>
 
                         <p>
@@ -53,7 +53,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/catalogos" wire:navigate class="nav-link">
+                    <a href="{{ route('catalogos') }}" class="nav-link">
                         <i class="nav-icon far fa-calendar-alt"></i>
 
                         <p>
@@ -63,7 +63,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="/configuracion" wire:navigate class="nav-link">
+                    <a href=href="{{ route('configuracion') }}" class="nav-link">
                         <i class="nav-icon far fa-calendar-alt"></i>
 
                         <p>
